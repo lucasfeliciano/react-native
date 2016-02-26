@@ -12,7 +12,7 @@ There are tons of native UI widgets out there ready to be used in the latest app
 Like the native module guide, this too is a more advanced guide that assumes you are somewhat familiar with Android SDK programming. This guide will show you how to build a native UI component, walking you through the implementation of a subset of the existing `ImageView `component available in the core React Native library.
 
 ## ImageView example
-
+n
 For this example we are going to walk through the implementation requirements to allow the use of ImageViews in JavaScript.
 
 Native views are created and manipulated by extending `ViewManager` or more commonly `SimpleViewManager` . A `SimpleViewManager` is convenient in this case because it applies common properties such as background color, opacity, and Flexbox layout.
@@ -86,7 +86,7 @@ Setter declaration requirements for methods annotated with `@ReactPropGroup` are
 
 ## 4. Register the `ViewManager`
 
-The final Java step is to register the ViewManager to the application, this happens in a similar way to [Native Modules](native-modules-android.html), via the applications package member function `createViewManagers.`
+The final Java step is to register the ViewManager to the application, this happens in a similar way to [Native Modules](./native-modules-android.html), via the applications package member function `createViewManagers.`
 
 ```java
   @Override
