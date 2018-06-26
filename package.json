@@ -140,7 +140,7 @@
     "base64-js": "^0.0.8",
     "bser": "^1.0.2",
     "chalk": "^1.1.1",
-    "connect": "^2.8.3",
+    "connect": "^3.0.0",
     "debug": "^2.2.0",
     "event-target-shim": "^1.0.5",
     "fbjs": "^0.7.2",
@@ -176,7 +176,7 @@
     "ws": "^0.8.0",
     "yargs": "^3.24.0",
     "yeoman-environment": "^1.2.7",
-    "yeoman-generator": "^0.20.3"
+    "yeoman-generator": "^0.24.1"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0",
